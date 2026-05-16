@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MFN Duality Studio — Café de especialidad y estudio creativo. Donde el arte del café encuentra la inspiración.">
+  <meta property="og:title" content="MFN Duality Studio — Café & Tueste">
+  <meta property="og:description" content="Donde el arte del café encuentra la inspiración creativa.">
+  <meta property="og:type" content="website">
+  <title>MFN Duality Studio — Café & Tueste</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!--  ═══════════════════════════════════════
+                      NAVBAR
+      ═══════════════════════════════════════ -->
+<nav id="navbar" role="banner">
+  <a href="#hero" class="nav-logo" aria-label="MFN Duality Studio — Inicio">
+    <span class="mfn-text">MFN</span>
+    <span class="studio-text">Duality Studio</span>
+  </a>
+
+  <ul class="nav-links" role="navigation" aria-label="Menú principal">
+    <li><a href="#nosotros">Nuestro Espacio</a></li>
+    <li><a href="#menu">El Menú</a></li>
+    <li><a href="#reservas">Reservas</a></li>
+    <li><a href="#testimonios">Nosotros</a></li>
+  </ul>
+
+  <a href="#" class="btn-nav-wa"
+      data-wa-msg="Hola MFN Duality Studio, quiero hacer una reserva o pedido online 🍵"
+      aria-label="Abrir WhatsApp">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    <span>Reservas / Pedidos</span>
+  </a>
+
+  <button class="hamburger" aria-label="Abrir menú móvil" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" role="navigation" aria-label="Menú móvil">
+  <a href="#nosotros">Nuestro Espacio</a>
+  <a href="#menu">El Menú</a>
+  <a href="#reservas">Reservas</a>
+  <a href="#testimonios">Nosotros</a>
+  <a href="#" class="btn-wa btn" style="border-radius:8px;margin-top:8px;"
+      data-wa-msg="Hola MFN Duality Studio, quiero hacer un pedido!">
+    Pedir por WhatsApp
+  </a>
+</div>
+
+
+<!-- ═══════════════════════════════════════
+                      HERO
+      ═══════════════════════════════════════ -->
+<section id="hero" aria-label="Bienvenida">
+
+  <!-- Panel izquierdo — oscuro / contenido -->
+  <div class="hero-left">
+    <div class="hero-content">
+      <p class="hero-pretitle">Café de Especialidad &amp; Restaurante</p>
+
+      <h1 class="hero-title">
+        Donde el Arte<br>
+        del Café Encuentra<br>
+        <em>la Inspiración.</em>
+      </h1>
+
+      <p class="hero-subtitle">
+        MFN Duality Studio: el encuentro entre el tueste artesanal y el diseño contemporáneo.
+        Un espacio donde cada sorbo cuenta una historia.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#" class="btn btn-wa"
+           data-wa-msg="Hola MFN Duality Studio, me gustaría hacer un pedido 🍵">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          Pedir por WhatsApp
+        </a>
+
+        <a href="#menu" class="btn btn-outline-light">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
+          </svg>
+          Explorar el Menú
+        </a>
+      </div>
+
+      <!-- Stats -->
+      <div class="hero-stat-row">
+        <div class="hero-stat">
+          <div class="num" data-count="40" data-suffix="+">0+</div>
+          <div class="label">Orígenes disponibles</div>
+        </div>
+        <div class="hero-stat">
+          <div class="num" data-count="5" data-suffix="★">0★</div>
+          <div class="label">Valoración clientes</div>
+        </div>
+        <div class="hero-stat">
+          <div class="num" data-count="2020" data-suffix="">2020</div>
+          <div class="label">Fundado en</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Panel derecho — imagen -->
+  <div class="hero-right" aria-hidden="true">
+    <img src="/assets/hero.webp"
+         alt="Interior MFN Duality Studio — Café de especialidad" loading="eager">
+  </div>
+
+  <!-- Scroll cue -->
+  <div class="scroll-cue" aria-hidden="true">
+    <span>Explora nuestro mundo</span>
+    <svg class="scroll-chevron" width="20" height="20" viewBox="0 0 24 24"
+         fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M6 9l6 6 6-6"/>
+    </svg>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     NOSOTROS
+     ═══════════════════════════════════════ -->
+<section id="nosotros" aria-label="Nuestra historia">
+
+  <!-- Visual -->
+  <div class="nosotros-visual">
+    <img src="/assets/cafe.webp"
+         alt="Barista preparando café en MFN Duality Studio">
+    <div class="nosotros-badge">Desde 2020</div>
+    <div class="nosotros-tag">Café de Especialidad</div>
+  </div>
+
+  <!-- Contenido -->
+  <div class="nosotros-content">
+    <span class="pretitle fade-up">Nuestra Historia</span>
+
+    <h2 class="section-title fade-up">
+      La <em style="font-style:italic;color:var(--roasted)">Dualidad</em><br>
+      como filosofía
+    </h2>
+
+    <div class="divider-line fade-up"></div>
+
+    <p class="section-body fade-up">
+      MFN Duality Studio nació de la convicción de que el café de especialidad y la comida gourmet
+      comparten el mismo ADN: obsesión por el detalle, respeto por el origen y búsqueda constante
+      de la excelencia.
+    </p>
+    <p class="section-body fade-up">
+      Somos un cafe donde los diseñadores crean rodeados de aromas de tueste, y donde los
+      amantes de la comida descubren el arte. Dos mundos en perfecta armonía.
+    </p>
+
+    <!-- Pillars -->
+    <div class="duality-pillars stagger">
+      <div class="pillar fade-up">
+        <div class="pillar-icon"></div>
+        <h4>Café de Origen</h4>
+        <p>Granos seleccionados de productores con quienes tenemos relación directa.</p>
+      </div>
+      <div class="pillar fade-up">
+        <div class="pillar-icon"></div>
+        <h4>Espacio de Tranquilidad</h4>
+        <p>Espacio diseñado para potenciar el descanso y la armonia.</p>
+      </div>
+      <div class="pillar fade-up">
+        <div class="pillar-icon"></div>
+        <h4>Sustentabilidad</h4>
+        <p>Prácticas responsables desde el tueste hasta el empaque biodegradable.</p>
+      </div>
+      <div class="pillar fade-up">
+        <div class="pillar-icon"></div>
+        <h4>Comunidad</h4>
+        <p>Eventos, catas y talleres para conectar personas apasionadas.</p>
+      </div>
+    </div>
+
+    <a href="#reservas" class="btn btn-outline fade-up" style="margin-top:8px">
+      Reservar una Experiencia
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+                          MENÚ
+    ═══════════════════════════════════════ -->
+<section id="menu" aria-label="Menú digital">
+
+  <div class="menu-header">
+    <span class="pretitle">Lo que preparamos hoy</span>
+    <h2 class="section-title light">Explora Nuestro Menú</h2>
+  </div>
+
+  <!-- Filtros -->
+  <div class="menu-filters" role="group" aria-label="Filtros de menú">
+    <button class="filter-btn active" data-filter="all">Todos</button>
+    <button class="filter-btn" data-filter="filtrado">Filtrados</button>
+    <button class="filter-btn" data-filter="espresso">Espresso</button>
+    <button class="filter-btn" data-filter="reposteria">Repostería</button>
+    <button class="filter-btn" data-filter="granos">Granos de Autor</button>
+  </div>
+
+  <!-- Grid -->
+  <div class="menu-grid stagger" id="menuGrid">
+
+    <!-- Card featured -->
+    <article class="menu-card featured fade-up" data-cat="espresso">
+      <div class="menu-card-img">
+        <img src="assets/latteespecial.webp"
+              alt="Specialty Latte MFN" loading="lazy">
+        <span class="card-cat-badge">Espresso — Destacado</span>
+      </div>
+      <div class="menu-card-body">
+        <h3 class="menu-card-name">Specialty Latte</h3>
+        <p class="menu-card-desc">
+          Extracción precisa de espresso de origen único sobre leche vaporizada texturizada en microespuma.
+          Arte latte incluido. El clásico que define nuestro estilo.
+        </p>
+        <div class="menu-card-footer">
+          <span class="menu-card-price">$2.30</span>
+          <a href="#" class="btn-pedir"
+              data-wa-msg="Hola MFN Duality Studio, quiero pedir un Specialty Latte ☕">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            Pedir Directo
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Filtrado -->
+    <article class="menu-card fade-up" data-cat="filtrado">
+      <div class="menu-card-img">
+        <img src="assets/Cafefiltrado.webp"
+             alt="Café Filtrado Origen" loading="lazy">
+        <span class="card-cat-badge">Filtrado</span>
+      </div>
+      <div class="menu-card-body">
+        <h3 class="menu-card-name">Filtrado de Origen</h3>
+        <p class="menu-card-desc">Pour-over Etiopía Yirgacheffe. Notas de bergamota, jazmín y arándano. Extracción 3 min.</p>
+        <div class="menu-card-footer">
+          <span class="menu-card-price">$3.50</span>
+          <a href="#" class="btn-pedir"
+             data-wa-msg="Hola MFN, quiero pedir un Café Filtrado Origen ">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Pedir Directo
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Repostería -->
+    <article class="menu-card fade-up" data-cat="reposteria">
+      <div class="menu-card-img">
+        <img src="/assets/croasaint.webp"
+              alt="Croissant Artesanal" loading="lazy">
+        <span class="card-cat-badge">Repostería</span>
+      </div>
+      <div class="menu-card-body">
+        <h3 class="menu-card-name">Croissant Artesanal</h3>
+        <p class="menu-card-desc">Masa hojaldrada 48h con manteca premium. Horneado fresco cada mañana. Dorado perfecto.</p>
+        <div class="menu-card-footer">
+          <span class="menu-card-price">$5.90</span>
+          <a href="#" class="btn-pedir"
+             data-wa-msg="Hola MFN, quiero pedir un Croissant Artesanal 🥐">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Pedir Directo
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Espresso -->
+    <article class="menu-card fade-up" data-cat="espresso">
+      <div class="menu-card-img">
+        <img src="assets/expresoconleche.webp"
+             alt="Flat White Doble" loading="lazy">
+        <span class="card-cat-badge">Espresso</span>
+      </div>
+      <div class="menu-card-body">
+        <h3 class="menu-card-name">Flat White Doble</h3>
+        <p class="menu-card-desc">Ratio espresso-leche 1:2. Microespuma sedosa. Concentrado e intenso. Para los serios del café.</p>
+        <div class="menu-card-footer">
+          <span class="menu-card-price">$2.80</span>
+          <a href="#" class="btn-pedir"
+             data-wa-msg="Hola MFN, quiero pedir un Flat White Doble ☕">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Pedir Directo
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Granos -->
+    <article class="menu-card fade-up" data-cat="granos">
+      <div class="menu-card-img">
+        <img src="assets/granos.webp"
+             alt="Blend Duality Signature — granos de autor" loading="lazy">
+        <span class="card-cat-badge">Granos de Autor</span>
+      </div>
+      <div class="menu-card-body">
+        <h3 class="menu-card-name">Blend Duality Signature</h3>
+        <p class="menu-card-desc">Mezcla exclusiva de tres orígenes. Tueste medio-oscuro. 250g. Ideal para espresso y filtrado.</p>
+        <div class="menu-card-footer">
+          <span class="menu-card-price">$18.00</span>
+          <a href="#" class="btn-pedir"
+             data-wa-msg="Hola MFN, quiero comprar la bolsa Blend Duality Signature 🫘">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Pedir Directo
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Brunch -->
+    <article class="menu-card fade-up" data-cat="reposteria">
+      <div class="menu-card-img">
+        <img src="assets/avocadotoast.webp"
+             alt="Avocado Toast MFN" loading="lazy">
+        <span class="card-cat-badge">Repostería & Brunch</span>
+      </div>
+      <div class="menu-card-body">
+        <h3 class="menu-card-name">Avocado Toast</h3>
+        <p class="menu-card-desc">Pan de masa madre, palta fresca, semillas mixtas, aceite de oliva virgen y fleur de sel.</p>
+        <div class="menu-card-footer">
+          <span class="menu-card-price">$3.90</span>
+          <a href="#" class="btn-pedir"
+             data-wa-msg="Hola MFN, quiero pedir el Avocado Toast 🥑">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Pedir Directo
+          </a>
+        </div>
+      </div>
+    </article>
+
+  </div><!-- /menu-grid -->
+
+  <div class="menu-cta-row">
+    <a href="#" class="btn btn-wa"
+       data-wa-msg="Hola MFN Duality Studio, ¿pueden enviarme el menú completo?">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Ver Menú Completo
+    </a>
+    <a href="#" class="btn btn-light"
+       data-wa-msg="Hola MFN Duality Studio, quiero hacer un pedido!">
+      Haz Tu Pedido →
+    </a>
+  </div>
+
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     RESERVAS & EXPERIENCIAS
+     ═══════════════════════════════════════ -->
+<section id="reservas" aria-label="Reservas y experiencias">
+
+  <div class="reservas-header">
+    <span class="pretitle">Tu mesa o pedido a un clic</span>
+    <h2 class="section-title">Reservas &amp; Experiencias</h2>
+  </div>
+
+  <div class="reservas-grid">
+
+    <!-- Mesa -->
+    <div class="reserva-card fade-up">
+      <div class="reserva-icon" aria-hidden="true">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none"
+              stroke="#E5DAC9" stroke-width="1.5">
+          <rect x="3" y="4" width="18" height="18" rx="2"/>
+          <line x1="16" y1="2" x2="16" y2="6"/>
+          <line x1="8" y1="2" x2="8" y2="6"/>
+          <line x1="3" y1="10" x2="21" y2="10"/>
+        </svg>
+      </div>
+      <h3 class="reserva-title">Reserva Tu Mesa</h3>
+      <p class="reserva-body">
+        Asegura tu lugar en el cafe. Mesas para trabajo individual, reuniones privadas
+        o barra de cata privada. Cupos limitados.
+      </p>
+      <a href="#" class="btn btn-wa btn-reserva"
+          data-wa-msg="Hola MFN Duality Studio, quiero reservar una mesa 📅">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Reservar por WhatsApp
+      </a>
+    </div>
+
+    <!-- Domicilio -->
+    <div class="reserva-card fade-up">
+      <div class="reserva-icon" aria-hidden="true">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none"
+             stroke="#E5DAC9" stroke-width="1.5">
+          <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
+          <polyline points="9 22 9 12 15 12 15 22"/>
+        </svg>
+      </div>
+      <h3 class="reserva-title">Pedido Online a Domicilio</h3>
+      <p class="reserva-body">
+        ¿No podés venir? Te llevamos el estudio a tu puerta. Cafés, bolsas de grano
+        y repostería fresca con delivery express.
+      </p>
+      <a href="#" class="btn btn-wa btn-reserva"
+         data-wa-msg="Hola MFN Duality Studio, quiero hacer un pedido a domicilio 🏠">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Pedir por WhatsApp
+      </a>
+    </div>
+
+  </div><!-- /reservas-grid -->
+
+  <!-- Experience band -->
+  <div class="experience-band fade-up">
+    <div class="exp-text">
+      <span class="pretitle">Experiencias exclusivas</span>
+      <h3>Cata Privada &amp; Coworking</h3>
+      <p>Reservá la barra completa para catas privadas, talleres de latte art o reuniones privadas. Grupos de hasta 12 personas.</p>
+    </div>
+    <a href="#" class="btn btn-light" style="flex-shrink:0"
+       data-wa-msg="Hola MFN Duality Studio, me interesa una experiencia privada o coworking 🎨">
+      Consultar Disponibilidad
+    </a>
+  </div>
+
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     TESTIMONIOS
+     ═══════════════════════════════════════ -->
+<section id="testimonios" aria-label="Testimonios de clientes">
+
+  <span class="pretitle" style="display:block;text-align:center">Lo que dice nuestra comunidad</span>
+  <h2 class="section-title" style="text-align:center">Historias de la Dualidad</h2>
+
+  <div class="testimonios-grid stagger">
+
+    <div class="testimonio-card fade-up">
+      <div class="stars">★★★★★</div>
+      <p class="testimonio-text">
+        "El mejor café filtrado que tomé en mi vida. El ambiente del lugar te inspira a crear.
+        Ya no puedo trabajar en otro lugar."
+      </p>
+      <div class="testimonio-author">
+        <div class="author-avatar">MA</div>
+        <div>
+          <div class="author-name">Martina Álvarez</div>
+          <div class="author-role">Diseñadora UX</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonio-card fade-up">
+      <div class="stars">★★★★★</div>
+      <p class="testimonio-text">
+        "Reservé la barra para una cata privada con mi equipo. Fue una experiencia única.
+        El barista explicó cada origen con pasión increíble."
+      </p>
+      <div class="testimonio-author">
+        <div class="author-avatar">CP</div>
+        <div>
+          <div class="author-name">Carlos Pérez</div>
+          <div class="author-role">Director</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonio-card fade-up">
+      <div class="stars">★★★★★</div>
+      <p class="testimonio-text">
+        "Compré el Blend Duality Signature y no puedo tomar otro café. La bolsa llegó
+        perfectamente embalada. El pedido por WhatsApp fue instantáneo."
+      </p>
+      <div class="testimonio-author">
+        <div class="author-avatar">LR</div>
+        <div>
+          <div class="author-name">Laura Rodríguez</div>
+          <div class="author-role">Fotógrafa</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+      FOOTER
+     ═══════════════════════════════════════ -->
+<footer role="contentinfo">
+  <div class="footer-top">
+
+    <!-- Brand -->
+    <div class="footer-brand">
+      <span class="mfn-text">MFN</span>
+      <span class="studio-text">Duality Studio</span>
+      <p>Un espacio donde el café de especialidad y la comida gourmet comparten el mismo ADN. Tostamos con pasión, diseñamos con propósito.</p>
+      <a href="#" class="footer-wa"
+          data-wa-msg="Hola MFN Duality Studio, quiero contactarlos!">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Escribinos
+      </a>
+    </div>
+
+    <!-- Horarios -->
+    <div class="footer-col">
+      <h4>Horarios</h4>
+      <ul>
+        <li>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          Lun – Vie: 8:00 – 23:00
+        </li>
+        <li>Sábado: 9:00 – 01:00</li>
+        <li>Domingo: 10:00 – 21:00</li>
+        <li style="color:var(--roasted);margin-top:6px">Feriados: consultar</li>
+      </ul>
+    </div>
+
+    <!-- Contacto -->
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <ul>
+        <li>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Calle San Martin 123, Ciudad Santa Rosa
+        </li>
+        <li>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <a href="mailto:email@mfnduality.com">email@mfnduality.com</a>
+        </li>
+        <li>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <a href="#" data-wa-msg="Hola MFN!">+2954 023596</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Links -->
+    <div class="footer-col">
+      <h4>Explorar</h4>
+      <ul>
+        <li><a href="#nosotros">Nuestro Espacio</a></li>
+        <li><a href="#menu">El Menú</a></li>
+        <li><a href="#reservas">Reservas</a></li>
+        <li><a href="#testimonios">Comunidad</a></li>
+      </ul>
+    </div>
+
+  </div><!-- /footer-top -->
+
+  <div class="footer-bottom">
+    <span class="footer-copy">© 2024 MFN Duality Studio — Café &amp; Tueste. Todos los derechos reservados.</span>
+    <div class="social-links">
+      <a href="#" aria-label="Instagram">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+          <rect x="2" y="2" width="20" height="20" rx="5"/>
+          <circle cx="12" cy="12" r="5"/>
+          <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+        </svg>
+      </a>
+      <a href="#" aria-label="Facebook">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+        </svg>
+      </a>
+      <a href="#" aria-label="TikTok">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.27 8.27 0 004.84 1.54V6.78a4.85 4.85 0 01-1.07-.09z"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ═══════════════════════════════════════
+     WHATSAPP FLOTANTE
+     ═══════════════════════════════════════ -->
+<a href="#" class="wa-float" aria-label="Chatear por WhatsApp"
+   data-wa-msg="Hola MFN Duality Studio, tengo una consulta!">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+  <span class="wa-tooltip">¡Hablemos!</span>
+</a>
+
+
+<!-- Script -->
+<script src="main.js" defer></script>
+
+</body>
+</html>
